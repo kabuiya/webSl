@@ -5,7 +5,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #000;
     font-family: Arial, sans-serif;
     overflow: hidden;
 }
@@ -29,7 +28,7 @@ body {
     transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
     
     /* White Background Styles */
-    background-color: white;
+    background-color: #F5F5F5;
     color: black; /* Text color for contrast */
     padding: 15px 30px;
     border-radius: 10px;
@@ -46,7 +45,6 @@ body {
 }
 
 .fontTxt {
-        font-family:cursive;
         color: blue;
 }
 /* Background Bubble Effect */
@@ -55,7 +53,7 @@ body {
     bottom: -50px;
     width: 20px;
     height: 20px;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: red;
     border-radius: 50%;
     animation: pop 5s linear infinite;
 }
